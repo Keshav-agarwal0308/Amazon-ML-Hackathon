@@ -1,3 +1,4 @@
+import sys, faulthandler; faulthandler.enable(); sys.tracebacklimit = 100
 import os, re, time, numpy as np, pandas as pd
 from tqdm import tqdm
 from scipy.sparse import hstack, csr_matrix
