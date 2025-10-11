@@ -1,0 +1,31 @@
+# Python
+_pycache_/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Data & outputs (don’t commit big files)
+dataset/
+assets/
+features/
+models/
+image_features/
+*.npy
+*.pt
+*.joblib
+*.parquet
+
+# Logs / checkpoints
+*.log
+runs/
+checkpoints/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
